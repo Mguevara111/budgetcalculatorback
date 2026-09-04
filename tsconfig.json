@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Target & Environment */
+    "target": "ES2022",                        /* Compile to modern JavaScript */
+    "lib": ["ES2022"],                         /* Include modern built-in type definitions */
+    
+    /* Module Resolution */
+    "module": "NodeNext",                      /* Use modern Node.js module resolution */
+    "moduleResolution": "NodeNext",            /* Required when module is NodeNext */
+    "esModuleInterop": true,                  /* Smooth interoperability with CommonJS */
+    "isolatedModules": true,                   /* Ensures safe transpilation by tools like Vite/esbuild */
+    
+    /* Strict Type Checking */
+    "strict": true,                            /* Enable all strict type-checking options */
+    "noImplicitAny": true,                     /* Error on expressions with an implied 'any' type */
+    "strictNullChecks": true,                  /* Ensures null/undefined are handled explicitly */
+    
+    /* Code Quality & Linter Rules */
+    "noUnusedLocals": true,                    /* Report errors on unused local variables */
+    "noUnusedParameters": true,                /* Report errors on unused function parameters */
+    "noFallthroughCasesInSwitch": true,        /* Prevent bugs from falling through switch statements */
+    "forceConsistentCasingInFileNames": true,  /* Enforce case-sensitive file imports */
+    
+    /* Build Outputs */
+    "rootDir":"./src",
+    "outDir": "./dist",                        /* Where to place compiled JavaScript */
+    "sourceMap": true,                         /* Generate source maps for debugging */
+    "declaration": true,                       /* Generate corresponding .d.ts files */
+    "skipLibCheck": true                       /* Skip type checking of declaration files (.d.ts) */
+  },
+  "include": ["src/**/*"],                     /* Source files to compile */
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"] /* Files to ignore during compilation */
+}

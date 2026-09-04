@@ -1,0 +1,142 @@
+[
+  {
+    "id": "dest-1",
+    "name": "Galápagos",
+    "country": "Ecuador",
+    "city": "Puerto Ayora",
+    "feeding_cost": 35,
+    "imageUrl": "/galapagos1.jpg",
+    "lodging": [
+      { "type": "Hostal Económico", "lodging_cost": 25, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel Estándar", "lodging_cost": 75, "lodgingUrl": "/hotelestan.jpg" },
+      { "type": "Resort de Lujo", "lodging_cost": 210, "lodgingUrl": "/resort.jpg" }
+    ],
+    "activities": [
+      { "id": "act-101", "name": "Tour de Snorkel en Los Túneles", "price": 120 },
+      { "id": "act-102", "name": "Visita a la Estación Charles Darwin", "price": 10 },
+      { "id": "act-103", "name": "Excursión en Kayak en Tortuga Bay", "price": 30 }
+    ]
+  },
+  {
+    "id": "dest-2",
+    "name": "Baños de Agua Santa",
+    "country": "Ecuador",
+    "city": "Baños",
+    "feeding_cost": 15,
+    "imageUrl": "/banos1.jpg",
+    "lodging": [
+      { "type": "Cabaña o Camping", "lodging_cost": 12, "lodgingUrl": "/cabana.jpg" },
+      { "type": "Hotel 3 Estrellas", "lodging_cost": 40, "lodgingUrl": "/hotelestan.jpg" },
+      { "type": "Spa & Resort", "lodging_cost": 95, "lodgingUrl": "/spa.webp" }
+    ],
+    "activities": [
+      { "id": "act-201", "name": "Ruta de las Cascadas en Chiva", "price": 10 },
+      { "id": "act-202", "name": "Puenting / Canopy", "price": 20 },
+      { "id": "act-203", "name": "Entrada a Termas de la Virgen", "price": 6 }
+    ]
+  },
+  {
+    "id": "dest-3",
+    "name": "Cuenca Historical Center",
+    "country": "Ecuador",
+    "city": "Cuenca",
+    "feeding_cost": 20,
+    "imageUrl": "/cuenca.jpg",
+    "lodging": [
+      { "type": "Hostal Patrimonial", "lodging_cost": 20, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel Boutique", "lodging_cost": 65, "lodgingUrl": "/hotelestan.jpg" }
+    ],
+    "activities": [
+      { "id": "act-301", "name": "Tour Parque Nacional Cajas", "price": 35 },
+      { "id": "act-302", "name": "Bus Turístico por la Ciudad", "price": 8 },
+      { "id": "act-303", "name": "Taller de Sombreros de Paja Toquilla", "price": 15 }
+    ]
+  },
+  {
+    "id": "dest-4",
+    "name": "Mancora Beach",
+    "country": "Perú",
+    "city": "Máncora",
+    "feeding_cost": 22,
+    "imageUrl": "/mancora.jpg",
+    "lodging": [
+      { "type": "Hostal Playero", "lodging_cost": 18, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel Frente al Mar", "lodging_cost": 55, "lodgingUrl": "/hotelmar.jpg" }
+    ],
+    "activities": [
+      { "id": "act-401", "name": "Nado con Tortugas en El Ñuro", "price": 25 },
+      { "id": "act-402", "name": "Clase de Surf (2 horas)", "price": 30 },
+      { "id": "act-403", "name": "Paseo en Cuatrimoto por las Dunas", "price": 20 }
+    ]
+  },
+  {
+    "id": "dest-5",
+    "name": "Cartagena de Indias",
+    "country": "Colombia",
+    "city": "Cartagena",
+    "feeding_cost": 28,
+    "imageUrl": "/cartagena.jpg",
+    "lodging": [
+      { "type": "Hostal en Getsemaní", "lodging_cost": 22, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel Colonial Centro Histórico", "lodging_cost": 85, "lodgingUrl": "/hotelestan.jpg" },
+      { "type": "Resort en Islas del Rosario", "lodging_cost": 180, "lodgingUrl": "/resort.jpg" }
+    ],
+    "activities": [
+      { "id": "act-501", "name": "Pass Día en Islas del Rosario", "price": 60 },
+      { "id": "act-502", "name": "Entrada Castillo San Felipe", "price": 12 },
+      { "id": "act-503", "name": "Paseo en Barco al Atardecer", "price": 25 }
+    ]
+  },
+  {
+    "id": "dest-6",
+    "name": "Ciudad de México",
+    "country": "México",
+    "city": "CDMX",
+    "feeding_cost": 25,
+    "imageUrl": "/mexico.webp",
+    "lodging": [
+      { "type": "Hostal Centro Histórico", "lodging_cost": 20, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel 4 Estrellas Reforma", "lodging_cost": 90, "lodgingUrl": "/hotelestan.jpg" }
+    ],
+    "activities": [
+      { "id": "act-601", "name": "Tour Pirámides de Teotihuacán", "price": 45 },
+      { "id": "act-602", "name": "Entrada Museo Frida Kahlo", "price": 18 },
+      { "id": "act-603", "name": "Paseo en Trajinera por Xochimilco", "price": 15 }
+    ]
+  },
+  {
+    "id": "dest-7",
+    "name": "Cusco y Machu Picchu",
+    "country": "Perú",
+    "city": "Cusco",
+    "feeding_cost": 24,
+    "imageUrl": "/machu.jpg",
+    "lodging": [
+      { "type": "Hostal Mochilero", "lodging_cost": 15, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel Cerca de Plaza de Armas", "lodging_cost": 70, "lodgingUrl": "/hotelestan.jpg" }
+    ],
+    "activities": [
+      { "id": "act-701", "name": "Full Day Machu Picchu (Tren + Entrada)", "price": 190 },
+      { "id": "act-702", "name": "Excursión a la Montaña de 7 Colores", "price": 35 },
+      { "id": "act-703", "name": "Tour Valle Sagrado de los Incas", "price": 40 }
+    ]
+  },
+  {
+    "id": "dest-8",
+    "name": "París Cultural",
+    "country": "Francia",
+    "city": "París",
+    "feeding_cost": 50,
+    "imageUrl": "/paris.jpg",
+    "lodging": [
+      { "type": "Hostal Juvenil", "lodging_cost": 45, "lodgingUrl": "/hostale.jpg" },
+      { "type": "Hotel Estándar 3 Estrellas", "lodging_cost": 110, "lodgingUrl": "/hotelestan.jpg" },
+      { "type": "Hotel de Lujo con Vista Eiffel", "lodging_cost": 320, "lodgingUrl": "/resort.jpg" }
+    ],
+    "activities": [
+      { "id": "act-801", "name": "Entrada al Museo del Louvre", "price": 22 },
+      { "id": "act-802", "name": "Subida a la Torre Eiffel", "price": 38 },
+      { "id": "act-803", "name": "Crucero por el Río Sena", "price": 18 }
+    ]
+  }
+]
